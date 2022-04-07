@@ -1,7 +1,8 @@
 #include<stdio.h>
 /*
  * writing a program to print
- * programming is like building a multilingual puzzle
+ *
+ *Description: programming is like building a multilingual puzzle
  */
 int main(void)
 {
