@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main (void)
+int main(void)
 { 
 /*
  * writing a program to print
