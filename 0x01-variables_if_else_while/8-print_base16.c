@@ -10,9 +10,9 @@ int main(void)
 {
 	int n;
 
-	for (n = 0; n < 16; n++)
+	for (ch = 'a'; ch <= 'f'; ch++)
 	{
-		putchar('%x');
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
