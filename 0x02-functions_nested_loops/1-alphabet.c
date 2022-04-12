@@ -6,9 +6,13 @@
  */
 int main(void)
 {
-	int i;
-
-	for (i = 97; i < 123; i++)
-		putchar(i);
+	char ch;
+	ch = 'a';
+	while (ch <= 'z')
+	{
+		_putchar(ch);
+		ch++;
+	}
+	_putchar('\n');
 	return (0);
 }
