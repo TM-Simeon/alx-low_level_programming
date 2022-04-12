@@ -2,11 +2,11 @@
 /**
  * main -print _putchar
  *
- * return: 0 for success
+ * Return: 0 for success
  */
 int main(void)
 {
 	puts("_putchar");
-	putchar('\n');
-	return 0;
+	puts("\n");
+	return (0);
 }
