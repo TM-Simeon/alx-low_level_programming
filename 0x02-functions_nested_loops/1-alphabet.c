@@ -7,7 +7,7 @@
  */
 
 void _putchar(char ch);
-void print_alphabet(void);
+void print_alphabet(char chi);
 int main(void)
 {
 	char c = 'a';
@@ -17,4 +17,5 @@ int main(void)
 		c++;
 	}
 	_putchar('\n');
+	return (0);
 }
