@@ -4,7 +4,7 @@
  *
  * Return: 0 always
  */
-void time_table(void)
+void times_table(void)
 {
 	int a = 0;
 	int b;
