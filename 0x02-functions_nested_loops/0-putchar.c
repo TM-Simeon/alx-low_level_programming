@@ -2,6 +2,8 @@
 /**
  * main -entry point
  *
+ * _putchar -print character
+ *
  * Return: nothing returned
  */
 
