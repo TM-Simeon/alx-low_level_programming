@@ -7,7 +7,7 @@
  */
 
 char _putchar(char ch);
-char print_alphabet(char chi);
+char print_alphabet(void);
 int main(void)
 {
 	char c = 'a';
