@@ -3,7 +3,7 @@
 /**
  * main -entry point
  *
- * _putchar -print character
+ * Description: print putchar
  *
  * Return: nothing returned
  */
@@ -12,6 +12,7 @@ char _putchar(char ch);
 /**
  * _putchar - print character
  *
+ * description: an external function
  */
 int main(void)
 {
