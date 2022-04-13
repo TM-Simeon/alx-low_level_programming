@@ -2,7 +2,8 @@
 /**
  * _isalpha - search for alpha
  * @c : character to find
- * return: 0 always
+ *
+ * Return: 0 always
  */
 
 int _isalpha(int c)
