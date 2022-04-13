@@ -8,9 +8,8 @@
 int _isalpha(int c)
 {
 	for (c = 65; c <= 122; c++)
-	{
+	
 		if (c > 90 && c < 96)
 			return (0);
-	else
-		return (1);
+	return (1);
 }
