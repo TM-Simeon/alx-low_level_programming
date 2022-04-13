@@ -6,8 +6,8 @@
  * Return: always 0
  */
 
-void _putchar(char ch);
-void print_alphabet(char chi);
+char _putchar(char ch);
+char print_alphabet(char chi);
 int main(void)
 {
 	char c = 'a';
