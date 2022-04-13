@@ -6,9 +6,8 @@
  * Return: always 0
  */
 
-char _putchar(char ch);
-char print_alphabet(void);
-int main(void)
+int _putchar(char c);
+void print_alphabet(void);
 {
 	char c = 'a';
 	while (c <= 'z')
