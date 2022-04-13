@@ -4,6 +4,8 @@
  *
  * Return: nothing returned
  */
+
+char _putchar(ch);
 int main(void)
 {
 	_putchar('_');
