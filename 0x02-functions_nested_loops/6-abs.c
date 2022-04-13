@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * abs - find the absolute value
+ * _abs - find the absolute value
  * @n : the integer to use
  *
  * return: 0 always
