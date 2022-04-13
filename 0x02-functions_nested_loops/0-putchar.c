@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * main -entry point
  *
@@ -8,6 +9,10 @@
  */
 
 char _putchar(char ch);
+/**
+ * _putchar - print character
+ *
+ */
 int main(void)
 {
 	_putchar('_');
