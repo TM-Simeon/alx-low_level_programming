@@ -7,9 +7,10 @@
  */
 int main(void)
 {
-	int i = 1;
+	int i;
 	int j = 100;
 
+	i = 1;
 	while (i <= j)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
@@ -18,7 +19,7 @@ int main(void)
 		}
 		else if (i % 3 == 0)
 		{
-			printf("Buzz ");
+			printf("Fizz ");
 		}
 		else if (i % 5 == 0)
 		{
