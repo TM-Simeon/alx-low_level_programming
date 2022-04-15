@@ -9,14 +9,15 @@
 void print_square(int size)
 {
 	int i;
+	int k;
 
 	if (size > 0)
 	{
-		for (size = 1; size <= n; size++)
+		for (k = 0; k < n; k++)
 		{
-			for (i = 1; i <= size; i++)
+			for (i = 0; i < k; i++)
 			{
-				_putchar(03);
+				_putchar(35);
 			}
 			_putchar('\n');
 		}
