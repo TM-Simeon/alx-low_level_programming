@@ -2,6 +2,7 @@
 
 /**
  * print_line - draw straight line
+ * @n: integer passed
  *
  * Return: 0 always
  */
