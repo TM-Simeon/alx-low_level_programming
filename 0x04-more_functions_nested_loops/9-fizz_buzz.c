@@ -11,19 +11,26 @@ int main(void)
 	int j = 100;
 
 	while (i <= j)
-	{/*
-		if (i % 3 == 0 && i % 5 != 0)
+	{
+		if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf("Fizz ");
+			printf("FizzBuzz ");
 		}
-		else if (i % 3 != 0 && i % 5 == 0)
+		else if (i % 3 == 0)
 		{
 			printf("Buzz ");
 		}
-		else if (i % 3 == 0 %% i % 5 == 0)
+		else if (i % 5 == 0)
 		{
-			printf("FizzBuzz ");
-		}*/
+			if (i < 100)
+			{
+			printf("Buzz ");
+			}
+			else
+			{
+			printf("Buzz");
+			}
+		}
 		printf("%d ", i);
 		i++;
 	}
