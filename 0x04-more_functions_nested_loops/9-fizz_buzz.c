@@ -11,7 +11,7 @@ int main(void)
 	int j = 100;
 
 	while (i <= j)
-	{
+	{/*
 		if (i % 3 == 0 && i % 5 != 0)
 		{
 			printf("Fizz ");
@@ -23,7 +23,7 @@ int main(void)
 		else if (i % 3 == 0 %% i % 5 == 0)
 		{
 			printf("FizzBuzz ");
-		}
+		}*/
 		printf("%d ", i);
 		i++;
 	}
