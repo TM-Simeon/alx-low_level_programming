@@ -31,7 +31,10 @@ int main(void)
 			printf("Buzz");
 			}
 		}
-		printf("%d ", i);
+		else
+		{
+			printf("%d ", i);
+		}
 		i++;
 	}
 	printf("\n");
