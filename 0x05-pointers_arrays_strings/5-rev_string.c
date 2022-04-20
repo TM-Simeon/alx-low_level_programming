@@ -1,23 +1,36 @@
 #include "main.h"
 /**
  * rev_string - function to call
- * @s: parameter to take in
+ * @s: parameter to pass in
  *
  * Return: always 0
  */
 void rev_string(char *s)
 {
-	int i, j, temp, c;
+	char *start_c, *end_c, c;
+	int i, count;
+	int length = 0;
 
-	c = 0;
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; s[i]; i++)
 	{
-		c++;
+		length++;
 	}
-	for (i = 0, j = c; i < j; i++, j--)
+	count = length;
+
+	start_c = s;
+	end_c = s;
+
+	for (i = 0; i < count - 1; i++)
 	{
-		temp = s[i];
-		s[i] = s[j];
-		s[j] = temp;
+		end_c++;
+	}
+	for (i = 0; i < count / 2; i++)
+	{
+		c = *end_c;
+		*end_c = *start_c;
+		*start_c = c;
+
+		start_c++;
+		end_c--;
 	}
 }
