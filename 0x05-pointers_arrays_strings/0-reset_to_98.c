@@ -13,7 +13,7 @@ void reset_to_98(int *n)
  * main -entry point
  *
  * Return: 0 always
- */
+ *
 int main(void)
 {
 	int a;
@@ -25,4 +25,4 @@ int main(void)
 	_putchar(a);
 
 	return (0);
-}
+}*/
