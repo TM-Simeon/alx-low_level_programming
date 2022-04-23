@@ -1,10 +1,10 @@
-#inlclude "main.h"
+#include "main.h"
 /**
- * _strcat - called function
- * @dest: passed parameter 1
- * @src: passed parameter 2
+ * _strcat - prototype function
+ * @dest: first array passed
+ * @src: second array passed
  *
- * Return: 0 always
+ * Return: always 0
  */
 char *_strcat(char *dest, char *src)
 {
@@ -15,7 +15,6 @@ char *_strcat(char *dest, char *src)
 	{
 		i++;
 	}
-	
 	j = 0;
 	while (src[j] != '\0')
 	{
@@ -24,6 +23,5 @@ char *_strcat(char *dest, char *src)
 		j++;
 	}
 	dest[i] = '\0';
-
 	return dest;
 }
