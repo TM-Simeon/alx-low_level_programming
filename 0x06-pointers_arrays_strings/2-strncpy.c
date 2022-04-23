@@ -13,11 +13,16 @@ car *_strncpy(char *dest, char *src, int n);
 
 	i = 0;
 	j = 0;
-	while (i < n)
+	while (i < n && src[i] != '\0')
 	{
 		dest[i] = src[j];
 		i++;
 		j++;
+	}
+	while ( i < n)
+	{
+		dest[i] = '\0';
+		i++;
 	}
 	return (dest);
 }
