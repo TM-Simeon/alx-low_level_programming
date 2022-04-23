@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * _strcat - prototype function
+ * _strncat - prototype function
  * @dest: first array passed
  * @src: second array passed
+ * @n: passed integer
  *
  * Return: always 0
  */
