@@ -1,5 +1,5 @@
-#ifndef MAIN_H_INCLUDE
-#define MAIN_H_INCLUDE
+#ifndef MAIN_H_INCLUDED
+#define MAIN_H_INCLUDED
 
 void _putchar(char ch);
 char *_strcat(char *dest, char *src);
