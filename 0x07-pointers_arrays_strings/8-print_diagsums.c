@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_diagsums - the sum of two diagonals
  * @a: 2 dimensional array of chars
