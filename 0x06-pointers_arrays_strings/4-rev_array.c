@@ -1,18 +1,31 @@
 #include "main.h"
 /**
  * reverse_array - called function
- * @a: passed value 1
- * @n: passed value 2
+ * @a: passed in value one
+ * @n: passed in value two
  *
- * Return: always 0
+ * Return: returns void
  */
 void reverse_array(int *a, int n)
 {
-	int i, j;
-	int array2[n];
+	int *start_c, *end_c, c;
+	int i;
 
-	for (i = n - 1, j = 0; i >= 0; i--, j++)
+	start_c = a;
+	end_c = a;
+
+	for (i = 0; i < n - 1; i++)
 	{
-		array2[j] = a[i];
+		end_c++;
+	}
+
+	for (i = 0; i < n / 2; i++)
+	{
+		c = *end_c;
+		*end_c = *start_c;
+		*start_c = c;
+
+		start_c++;
+		end_c--;
 	}
 }

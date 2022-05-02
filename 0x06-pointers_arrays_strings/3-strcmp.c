@@ -1,15 +1,20 @@
 #include "main.h"
 /**
  * _strcmp - called function
- * @s1: first parameter
- * @s2: second parameter
+ * @s1: parameter one
+ * @s2: parameter two
  *
- * Return: 0 always
+ * Return: always 0
  */
 int _strcmp(char *s1, char *s2)
 {
-	int a;
+	char *str_one = s1;
+	char *str_two = s2;
 
-	a = strcmp(s1, s2);
-	return (a);
+	while (*str_one != '\0' && *str_two != '\0' && *str_one == *str_two)
+	{
+		str_one++;
+		str_two++;
+	}
+	return (*str_one - *str_two);
 }
