@@ -25,7 +25,7 @@ int check_num(char *str)
 }
 
 /**
- * main = print the name of the program
+ * main - print the name of the program
  * @argc: cout arguments
  * @argv: arguments
  *
