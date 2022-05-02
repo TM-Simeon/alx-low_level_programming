@@ -37,6 +37,6 @@ int main(int argc, char *argv[])
 		}
 		position++;
 	}
-	prinft("%d\n", change);
+	printf("%d\n", change);
 	return (0);
 }
