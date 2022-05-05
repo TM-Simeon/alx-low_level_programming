@@ -46,7 +46,7 @@ char *_strcpy(char *dest, char *src)
 
 char *_strdup(char *str)
 {
-	char *dest;
+	char *dst;
 
 	unsignd int size;
 
@@ -57,12 +57,12 @@ char *_strdup(char *str)
 
 	size = _strlen(str) + 1;
 
-	dest = (char *) malloc(size * sizeof(char));
+	dst = (char *) malloc(size * sizeof(char));
 
-	if (dest == 0)
+	if (dst == 0)
 	{
 		return (NULL);
 	}
-	_strcpy(dest, str);
-	return (dest);
+	_strcpy(dst, str);
+	return (dst);
 }
