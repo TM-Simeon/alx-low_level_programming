@@ -21,7 +21,7 @@ int _strlen(char *s)
  * _strcpy - copy arrays
  * @src: array of elements
  * @dest: dest array
- * Retrun: dest
+ * Return: dest
  */
 
 char *_strcpy(char *dest, char *src)
