@@ -7,12 +7,13 @@
  * Return: the sum
  */
 int sum_them_all(const unsigned int n, ...)
-{
+}
 	if (n == 0)
 	{
 		return (0);
 	}
-
+	else
+	{
 	unsigned int i;
 	int sum = 0;
 
@@ -23,6 +24,6 @@ int sum_them_all(const unsigned int n, ...)
 		sum += va_arg(list, int);
 	}
 	va_end(list);
-
 	return (sum);
+	}
 }
