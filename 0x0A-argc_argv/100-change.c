@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
- * main - entry point
+ * main - function
  * @argc: length of argv
  * @argv: number of argument
  * Return: always 0
@@ -18,7 +19,6 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-
 	total = atoi(argv[1]);
 
 	if (total <= 0)
@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 
 	while (coins[position] != '\0')
 	{
-		it (total >= coins[position])
+		if (total >= coins[position])
 		{
 			aux = (total / coins[position]);
 			change += aux;
