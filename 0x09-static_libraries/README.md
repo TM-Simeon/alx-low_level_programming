@@ -1,1 +1,2 @@
-creating a static library in c
+
+not empty
